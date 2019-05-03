@@ -1,0 +1,13 @@
+package: github.com/noprom/crypt
+import:
+- package: github.com/hashicorp/consul
+  version: v1.4.4
+  subpackages:
+  - api
+- package: go.etcd.io/etcd
+  version: ^3.3.13
+  subpackages:
+  - client
+- package: golang.org/x/crypto
+  subpackages:
+  - openpgp

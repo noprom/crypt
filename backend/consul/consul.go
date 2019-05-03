@@ -5,9 +5,8 @@ import (
 	"strings"
 	"time"
 
+	consulapi "github.com/hashicorp/consul/api"
 	"github.com/noprom/crypt/backend"
-
-	"github.com/armon/consul-api"
 )
 
 type Client struct {
